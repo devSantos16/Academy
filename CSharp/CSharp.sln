@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poo", "Poo\Poo.csproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{2F8EDDEA-C8C2-4682-A369-D942C4785A4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullGauge", "FullGauge\FullGauge.csproj", "{6D98C401-615E-440D-95EA-005814DCAACA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2F8EDDEA-C8C2-4682-A369-D942C4785A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F8EDDEA-C8C2-4682-A369-D942C4785A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F8EDDEA-C8C2-4682-A369-D942C4785A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D98C401-615E-440D-95EA-005814DCAACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D98C401-615E-440D-95EA-005814DCAACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D98C401-615E-440D-95EA-005814DCAACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D98C401-615E-440D-95EA-005814DCAACA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
