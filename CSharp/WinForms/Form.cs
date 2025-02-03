@@ -1,6 +1,7 @@
 
 
 
+
 namespace WinForms
 {
     public partial class Form : System.Windows.Forms.Form
@@ -27,6 +28,39 @@ namespace WinForms
                 }
             };
 
+            this.AddButon();
+            this.test();
+
+        }
+
+        private void AddButon()
+        {
+            Button btn = new Button
+            {
+                Text = "Click",
+                Location = new Point(100, 200),
+                Size = new Size(300, 50),
+                BackColor = Color.WhiteSmoke,
+                Name = "Joaozinho"
+            };
+
+            btn.Click += (s, e) =>
+            {
+                MessageBox.Show("It's a button");
+            };
+
+            this.Controls.Add(btn);
+        }
+
+        private void test()
+        {
+            foreach(var control in this.Controls)
+            {
+                if(control is Button btn)
+                {
+                    btn.Enabled = true;
+                }
+            }
         }
 
         private void AppKeyPress(object sender, KeyPressEventArgs e)
