@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullGauge", "FullGauge\Full
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "WinForms\WinForms.csproj", "{44E4217E-DCD1-4A88-BD02-479072E76866}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlunxBrilhantesExample", "AlunxBrilhantesExample\AlunxBrilhantesExample.csproj", "{E194071A-77A8-4983-B7DB-F0B86C38A66D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{44E4217E-DCD1-4A88-BD02-479072E76866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E4217E-DCD1-4A88-BD02-479072E76866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E4217E-DCD1-4A88-BD02-479072E76866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E194071A-77A8-4983-B7DB-F0B86C38A66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E194071A-77A8-4983-B7DB-F0B86C38A66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E194071A-77A8-4983-B7DB-F0B86C38A66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E194071A-77A8-4983-B7DB-F0B86C38A66D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
