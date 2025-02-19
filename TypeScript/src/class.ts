@@ -26,5 +26,11 @@ class Employee extends Person {
     }
 }
 
+class PerfectClass {
+    constructor(
+        readonly id: number
+    ) {}
+}
+
 const p = new Employee(1, "Hunk")
 p.sayMyName()
