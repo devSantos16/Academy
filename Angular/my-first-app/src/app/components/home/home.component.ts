@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { SubmitService } from '../../services/submit.service';
 
 @Component({
   selector: 'app-home',
@@ -10,15 +11,16 @@ export class HomeComponent {
   public id: number = 1
   public condition: boolean = true
   public arialabel: string = "sla"
-
+  public submitService = inject(SubmitService)
   public listItem: string[] = ["João", "Fernando", "Gilberto"]
 
-
+  public submit = () => {
+    console.log(this.submitService)
+    this.submitService.submit()
+  }
+  
   public updatecondition = (condition: boolean) => {
     this.condition = condition
   }
 
-  public submit = () => {
-    window.alert("Alert")
-  }
 }
