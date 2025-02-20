@@ -1,4 +1,16 @@
-<p>Hello World, this condition is {{ condition }}!</p>
+<p>Hello World, this condition is {{ this.condition }}!</p>
 
 <!-- dynamic attributes -->
-<button [id] = "id" [attr.aria-label]="arialabel" (click)="submit()">Click Here</button>
+<button [id] = "this.id" [attr.aria-label]="arialabel" (click)="submit()">Click Here</button>
+
+@if (this.condition == false) {
+    <h1>Condition</h1>
+}
+@else {
+    <h1>!Condition</h1>
+}
+
+@for (item of this.listItem; track $index) {
+    <h2>{{ item }}</h2>
+    <p>{{ $index }}<p>
+}

@@ -8,8 +8,10 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   public id: number = 1
-  public condition: boolean = false
+  public condition: boolean = true
   public arialabel: string = "sla"
+
+  public listItem: string[] = ["João", "Fernando", "Gilberto"]
 
 
   public updatecondition = (condition: boolean) => {
