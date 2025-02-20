@@ -7,9 +7,16 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  public id: number = 1
   public condition: boolean = false
+  public arialabel: string = "sla"
+
 
   public updatecondition = (condition: boolean) => {
     this.condition = condition
+  }
+
+  public submit = () => {
+    window.alert("Alert")
   }
 }
