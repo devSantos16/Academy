@@ -11,4 +11,9 @@ import { HomeComponent } from './components/home/home.component';
 })
 export class AppComponent {
   title = 'my-first-app';
+
+
+  login(event:string){
+    console.log(event)
+  }
 }
